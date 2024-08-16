@@ -1,0 +1,71 @@
+.updateproduct {
+    padding: 20px;
+  }
+  
+  .updateproduct h1,
+  .updateproduct h2 {
+    text-align: center;
+  }
+  
+  .updateproduct-list {
+    margin-bottom: 20px;
+  }
+  
+  .updateproduct-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .updateproduct-item {
+    cursor: pointer;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .updateproduct-item img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .updateproduct-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .updateproduct-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+  }
+  
+  .updateproduct-form label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .updateproduct-form input,
+  .updateproduct-form textarea,
+  .updateproduct-form select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .updateproduct-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .updateproduct-form button:hover {
+    background-color: #0056b3;
+  }
+  
